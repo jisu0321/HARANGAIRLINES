@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #000;
+    font-size: 17px;
+    line-height: 24px;
+    min-width: 1550px;
+}
+
+#top {
+    background-color: #00bccb;
+    position: fixed;
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.top_inner {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+#gnb li:hover {
+    color: #00bccb;
+    transition: all 0.5s;
+}
+
+
+#top ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+}
+
+#language {
+    font-size: 16px;
+    width: 160px;
+    border: none;
+    background-color: #00bccb;
+    font-family: inherit;
+    color: white;
+}
+
+#top li {
+    text-align: center;
+    padding: 7px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#header {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    top: 40px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header_inner {
+    width: 1504px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#gnb {
+    display: flex;
+    list-style: none;
+}
+
+#gnb li {
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo {
+    position: absolute;
+    top: 16px;
+    left: 0;
+
+}
+
+#footer {
+    background-color: #00bccb;
+    color: white;
+    font-size: 16px;
+}
+
+#footer {
+    background: #00bccb;
+    padding: 50px 0;
+    color: white;
+}
+
+#footer_in {
+    width: 1504px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#footer a,
+.footer_in p {
+    color: white;
+}
+
+#footer_in {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ft_left ul {
+    display: flex;
+}
+
+#ft_left ul li {
+    margin-right: 30px;
+    list-style: none;
+}
+
+#ft_left p {
+    padding-top: 30px;
+}
+
+.numb {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.ftr_time {
+    color: #fff;
+}
+
+#ft_right ul {
+    display: flex;
+    list-style: none;
+}
+
+#ft_right ul li {
+    margin: 15px 15px 0 0;
+
+}
+
+.top {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    margin-left: 770px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+#main_banner {
+    background-image: url(./images/sub3/giftbox.jpg);
+    background-repeat: no-repeat;
+    height: 616px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+    margin-top: 104px;
+    background-position: center;
+}
+
+#main_banner img {
+    padding: 20px 0;
+}
+
+#main_banner p {
+    padding-top: 220px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#main_banner h5 {
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 400
+}
+
+#event {
+    width: 1504px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#event2 {
+    width: 1504px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#text {
+    padding-top: 180px;
+    width: 1504px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+
+}
+
+#text2 {
+    padding-top: 60px;
+    width: 1504px;
+    padding-bottom: 32px;
+    margin: 0 auto;
+    padding-bottom: 130px;
+}
+
+.text_title1 {
+    padding-bottom: 22px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.event:hover {
+    transform: translateY(-5px);
+    transition: all 0.1s;
+}
+
+.text_content1 {
+    font-size: 17px;
+    padding-bottom: 50px;
+}
+
+.event_title {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 24px;
+}
+
+.event_content {
+    padding-bottom: 50px;
+}

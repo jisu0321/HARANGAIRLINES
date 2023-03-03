@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하랑항공</title>
+    <link rel="shortcut icon" href="./images/INDEX/bird_icon.png" type="image/x-icon">
+    <meta name="viewport" content="width=1550">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="./sub2.css">
+</head>
+
+<body>
+    <div id="top">
+        <div class="top_inner">
+            <ul class="login">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li>
+                    <select name="" id="language">
+                        <option value="">한국어 (KOREAN)</option>
+                        <option value="">영어 (ENGLISH)</option>
+                        <option value="">중국어 (汉语)</option>
+                        <option value="">러시아어 (РУССКИЙ ЯЗЫК)</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="header">
+        <div class="header_inner">
+            <h1 class="logo">
+                <a href="index.html"><img src="./images/INDEX/logo.jpg" alt="로고이미지"></a>
+            </h1>
+            <ul id="gnb">
+                <li><a href="sub1.html">회사소개</a></li>
+                <li><a href="sub2.html">서비스안내</a></li>
+                <li><a href="sub3.html">이벤트</a></li>
+                <li><a href="sub4.html">하랑스토어</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="main_banner">
+        <p data-aos="fade-up" data-aos-easing="ease-out-back" data-aos-duration="1000">SERVICE</p><br>
+        <img data-aos="fade-up" data-aos-easing="ease-out-back" data-aos-duration="1500"
+            src="./images/sub2/whiteline.png">
+        <h5 data-aos="fade-up" data-aos-easing="ease-out-back" data-aos-duration="2000">Traveling passengers with
+            special service</h5>
+    </div>
+    <div id="wrapper">
+        <!--탭 메뉴 영역 -->
+        <ul class="tabs">
+            <li><a href="#tab1">유아 동반 고객</a></li>
+            <li><a href="#tab2">임신 중인 고객</a></li>
+            <li><a href="#tab3">몸이 불편한 고객</a></li>
+            <li><a href="#tab4">반려동물 동반 고객</a></li>
+            <li><a href="#tab5">혼자 여행하는 어린이</a></li>
+
+        </ul>
+        <div class="tab_container">
+
+            <div id="tab1" class="tab_content">
+                <div id="baby_img">
+                    <p>유/소아를 동반하실 때, 안심하고 여행할 수 있도록 안내 드립니다.<br><br>
+                        특히, 생후 7일 ~ 만 2세 미만 유아를 동반하는 항공 여행을 준비하실 때는 아래 내용을 확인해 주시기 바랍니다.</p>
+                </div>
+                <h2 class="title">유아 동반 고객</h2>
+                <div class="baby">
+                    <p class="baby_title">유아 항공 요금</p>
+                    <ul>
+                        <li>유아 나이 기준 : 생후 7일 ~ 만 2세 미만</li>
+                        <li>국내선은 무료이며, 국제선은 성인 통상운임의 10% 입니다.</li>
+                        <li>유아는 별도의 좌석이 제공되지 않습니다. (단, 소아 운임을 지불하신 경우는 좌석이 제공됩니다)</li>
+                        <li>승객 한 분이 2명의 유아를 동반하실 경우, 1명의 유아는 소아 항공권을 구매해야 하며, 소아운임이 적용된 유아에게는 좌석이 제공됩니다.</li>
+                    </ul>
+                </div>
+                <h2 class="title">공항서비스 안내</h2>
+                <div class="baby">
+                    <p class="baby_title">이용대상</p>
+                    <ul>
+                        <li>7세 미만의 유/소아 2명 이상을 혼자서 동반한 1인 손님</li>
+                    </ul>
+                </div>
+                <div class="baby">
+                    <p class="baby_title">제공서비스</p>
+                    <ul>
+                        <li>전용 카운터 이용</li>
+                        <li class="memo">*전용 카운터가 없는 공항은 직원에게 문의해 주시기 바랍니다.</li>
+                        <li>수하물 우선 처리</li>
+                        <li>항공기 우선 탑승</li>
+                    </ul>
+                </div>
+                <h2 class="title">사전예약이 필요한 서비스</h2>
+                <div>
+                    <table id="table">
+                        <tr>
+                            <th colspan="2">유아용 기내식 (국제선)</th>
+                        </tr>
+                        <tr>
+                            <td class="sub">이용 대상</td>
+                            <td class="content">만 2세 미만 유아 고객(국제선)</td>
+                        </tr>
+                        <tr>
+                            <td class="sub">유아식 종류</td>
+                            <td class="content">유아식(BABY MEAL), 이유식(TODDLER MEAL), 어린이기내식(CHILD MEAL)</td>
+                        </tr>
+                        <tr>
+                            <td class="sub">신청방법</td>
+                            <td class="content">- 하랑 예약센터로 항공편 출발 24시간 전까지 신청
+                                <p class="memo">*이유식은 인천 출발편만 가능</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <table id="table2">
+                        <tr>
+                            <th colspan="2">안전의자(Car Seat) 제공 (국제선)</th>
+                        </tr>
+                        <tr>
+                            <td class="sub">서비스 내용</td>
+                            <td class="content">기내 안전의자(Car Seat) 제공</td>
+                        </tr>
+                        <tr>
+                            <td class="sub">이용 대상</td>
+                            <td class="content">소아운임을 지불하고 항공권을 구입한 만 2세 미만의 유아 고객</td>
+                        </tr>
+                        <tr>
+                            <td class="sub">적용노선</td>
+                            <td class="content">미주(사이판 제외), 유럽, 시드니 노선</td>
+                        </tr>
+                        <tr>
+                            <td class="sub">유의사항</td>
+                            <td class="content">소아운임을 지불하고 항공권을 구입한 만 2세 미만의 유아 고객</td>
+                        </tr>
+                        <tr>
+                            <td class="sub">신청방법</td>
+                            <td class="content1">아래 3가지 조건이 모두 부합 시
+                                <p>- 연령 : 만 12개월 이상 ~ 만 24개월 미만</p>
+                                <p>- 신장 : 74cm 이상</p>
+                                <p>- 체중 : 9kg ~ 18kg 이하</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="tab2" class="tab_content">
+            <div id="pregnant_img">
+                <p>하랑항공에서는 임신부 고객께서 편안하고 안전한 여행이 될 수 있도록 세심한 서비스로 모십니다.<br><br>
+                    뱃 속의 아기와 함께 더욱 편안한 여행이 되세요.</p>
+            </div>
+            <h2 class="title">임신 중인 고객</h2>
+            <div class="pregnant">
+                <p class="pregnant_title">임신 32주 미만</p>
+                <ul>
+                    <li>임신관련 합병증 (임신성 고혈압, 당뇨 등) 및 유산, 조기출산 가능성이 확인된 경우를 제외하고는 제한 없이 여행이 가능합니다.</li>
+                </ul>
+            </div>
+            <div class="pregnant">
+                <p class="pregnant_title">임신 32주 ~ 37주</p>
+                <ul>
+                    <li>탑승수속 시 서약서 제출 및 증빙서류 제출이 필요합니다.</li>
+                    <li>다태 임신일 경우 33주 이상부터 탑승하실 수 없습니다.</li>
+                </ul>
+            </div>
+            <div class="pregnant">
+                <p class="pregnant_title">임신 37주 이상</p>
+                <ul>
+                    <li>고객의 안전을 위하여 항공기에 탑승하실 수 없습니다.</li>
+                    <li>증빙서류 : 탑승일 기준 7일 이내에 작성된 진단서나 소견서(Medical Certificate) 원본 1부, 사본 2부</li>
+                    <li>기재내용 : 항공여행의 적합 여부, 분만(출산) 예정일</li>
+                </ul>
+            </div>
+            <h2 class="title">공항서비스 안내</h2>
+            <div class="pregnant">
+                <p class="pregnant_title">이용대상</p>
+                <ul>
+                    <li>혼자 여행하는 임신부 고객</li>
+                </ul>
+            </div>
+            <div class="pregnant">
+                <p class="pregnant_title">적용노선</p>
+                <ul>
+                    <li>하랑항공 전 노선 (공동 운항편 제외)</li>
+                </ul>
+            </div>
+            <div class="pregnant">
+                <p class="pregnant_title">제공 서비스</p>
+                <ul>
+                    <li>전용 카운터 이용</li>
+                    <li class="memo">* 전용 카운터가 없는 공항은 직원에게 문의해 주시기 바랍니다.</li>
+                    <li>수하물 우선 처리</li>
+                    <li>항공기 우선 탑승</li>
+                </ul>
+            </div>
+            <div id="check_img">
+                <p class="check_title">유의사항</p>
+                <ul>
+                    <li>- ‘도움이 필요한 승객’을 위한 카운터가 있는 공항인 경우 해당 카운터에서 탑승수속을 진행할 수 있습니다. (항공기 탑승 시 우선 탑승)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="tab3" class="tab_content">
+            <!--Content-->
+            <div id="disable_img">
+                <p>하랑항공에서는 신체적, 건강상의 이유로 몸이 불편하여 혼자 여행하기 어려운 고객께서<br><br>
+                    항공여행과 활동에 불편이 없도록 다양한 서비스를 제공해 드립니다.</p>
+            </div>
+            <h2 class="title">몸이 불편한 고객</h2>
+
+            <div class="disable">
+                <p class="disable_title">이용대상</p>
+                <ul>
+                    <li>시각, 청각 장애등을 가지신 고객</li>
+                    <li>휠체어(Wheelchair)가 필요한 고객</li>
+                    <li class="memo">* 시각,청각장애인 안내견을 동반하는 시각장애 고객의 경우 안내견은 무료로 운송됩니다.</li>
+                </ul>
+            </div>
+            <div class="disable">
+                <p class="disable_title">이용안내</p>
+                <ul>
+                    <li>시각, 청각 장애등을 가지신 고객</li>
+                    <p>- 고객의 편리하고 안전한 여행을 위하여 탑승수속에서 입국수속까지 안내하고 보조하는 서비스를 제공해 드립니다.</p>
+                    <li>휠체어(Wheelchair)가 필요한 고객</li>
+                    <p>- 도착시에는 공항 내 마중 나오신 분이 계신 곳 까지 이동을 도와드립니다.</p>
+                    <p>- 전동휠체어를 소지하신 고객의 경우 배터리를 분리해야 하는 조치가 필요하므로 예약 시 미리 알려주시기 바랍니다.</p>
+                    <p>- 휠체어 서비스는 예약센터와 공항 등 어디에서든 신청하실 수 있습니다.</p>
+                </ul>
+            </div>
+            <h2 class="title">자세고정용 안전의자(Orthotic Positioning Device) 사용 안내</h2>
+            <div>
+                <table id="table2">
+                    <tr>
+                        <td class="sub2">서비스 내용</td>
+                        <td class="content6">기내 안전의자(Car Seat) 제공</td>
+                    </tr>
+                    <tr>
+                        <td class="sub2">이용 대상</td>
+                        <td class="content6">소아운임을 지불하고 항공권을 구입한 만 2세 미만의 유아 고객</td>
+                    </tr>
+                    <tr>
+                        <td class="sub2">적용노선</td>
+                        <td class="content6">미주(사이판 제외), 유럽, 시드니 노선</td>
+                    </tr>
+                    <tr>
+                        <td class="sub2">유의사항</td>
+                        <td class="content6">소아운임을 지불하고 항공권을 구입한 만 2세 미만의 유아 고객</td>
+                    </tr>
+                    <tr>
+                        <td class="sub2">신청방법</td>
+                        <td class="content2">아래 3가지 조건이 모두 부합 시
+                            <p>- 연령 : 만 12개월 이상 ~ 만 24개월 미만</p>
+                            <p>- 신장 : 74cm 이상</p>
+                            <p>- 체중 : 9kg ~ 18kg 이하</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div id="tab4" class="tab_content">
+            <div id="pet_img">
+                <p>반려동물과 함께 항공여행 계획 중인 고객께서는<br><br>
+                    신청방법, 반려동물 가이드를 사전에 꼭 확인해 주시기 바랍니다.</p>
+            </div>
+            <h2 class="title">반려동물 동반 고객</h2>
+            <div class="pet">
+                <p class="pet_title">운송 가능한 동물</p>
+                <ul>
+                    <li>운송 가능한 동물의 종류 : 개, 고양이, 애완용 새</li>
+                    <li>운송 가능한 동물의 수 : 성인 탑승객 1인당 기내 반입 1마리, 위탁수하물 2마리, 소아는 반려동물 운송불가</li>
+                </ul>
+            </div>
+            <div class="pet">
+                <p class="pet_title">기내 반입이 가능한 경우</p>
+                <ul>
+                    <li>케이지를 포함한 반려 동물의 무게가 7kg 이하인 경우</li>
+                    <li>운반 용기는 삼변의 길이 합이 115cm 이하이며, 높이가 최대 21cm 이내여야 합니다.</li>
+                    <li>1인당 케이지 1개, 1마리만 반입 가능</li>
+                    <li>반려동물은 안전 운항을 위해 반드시 케이지 내에서 보관되어야 하며, 꺼내는 행위는 엄격히 금지되어 있습니다.</li>
+                    <li>반려동물과 함께 탑승하실 경우, 반려동물 지정좌석에 탑승하셔야 합니다.</li>
+                    <li>국내선 이용 시, 반려동물 기내 반입 케이지를 국내 공항 (인천공항 제외)에서 구입하실 수 있습니</li>
+                </ul>
+            </div>
+            <div class="pet">
+                <p class="pet_title">수하물로 위탁하는 경우</p>
+                <ul>
+                    <li>반려 동물의 크기가 기내 수하물 규격을 넘는 경우</li>
+                    <li>반 용기를 포함한 동물의 무게가 45kg 이하이고 운반 용기의 3면 길이의 합이 285cm, 높이 84cm 이하인 경우</li>
+                    <li>항공기 기종 및 운항 구간에 따라, 기내 반입 또는 수하물로 위탁할 수 있는 두수 제한 또는 탑재가 거절될 수 있습니다.</li>
+                </ul>
+            </div>
+            <div class="pet">
+                <p class="pet_title">장애고객 보조견(Service Dogs)</p>
+                <ul>
+                    <li>보조견으로 훈련받은 공인인증서를 부착했으며, Harness를 착용하고, 장애고객과 동행할 경우, 기내 탑승 가능합니다.</li>
+                </ul>
+            </div>
+            <h2 class="title">반려동물 운송 예약</h2>
+            <div>
+                <table id="table3">
+                    <tr>
+                        <td class="sub3">구분</td>
+                        <td class="sub3">예약 마감 시간(영업일 기준)</td>
+                    </tr>
+                    <tr>
+                        <td class="content5">국내선</td>
+                        <td class="content3">항공기 출발 기준 24시간 전</td>
+                    </tr>
+                    <tr>
+                        <td class="content5">국제선</td>
+                        <td class="content4">항공기 출발 기준 48시간 전</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div id="tab5" class="tab_content">
+            <div id="child_img">
+                <p>하랑항공은 출발공항에서 탑승권을 받는 순간부터 도착공항에서 보호자를 만나기까지<br><br>
+                    안전하게 여행할 수 있도록 혼자 여행하는 어린이를 위한 서비스를 제공합니다.</p>
+            </div>
+            <h2 class="title">혼자 여행하는 어린이</h2>
+            <div class="child">
+                <p class="child_title">이용대상</p>
+                <ul>
+                    <li>국제선 : 만 5세 이상 ~ 만 12세 미만까지 이용 가능</li>
+                    <li>국내선 : 만 5세 이상 ~ 만 13세 미만까지 이용 가능</li>
+                    <li class="memo">* 당사 인터넷 홈페이지/모바일에서 소아/유아 예매는 반드시 부모 또는 만 18세 이상의 성인과 함께 항공권을 구매하실 경우에만 가능하며,
+                        소아만 단독으로 항공권을 구매하실 경우 예약센터에서 하실 수 있습니다.</li>
+                </ul>
+            </div>
+            <div class="child">
+                <p class="child_title">이용안내</p>
+                <ul>
+                    <li>출발지에서 : 담당직원이 수속카운터에서 항공기 탑승 시 까지 어린이와 동반해 드립니다.</li>
+                    <li>기내에서 : 승무원들이 안전한 여행을 위하여 어린이를 보살펴 드립니다.</li>
+                    <li>도착지에서 : 담당직원이 어린이가 마중나온 보호자와 만나는 시점까지 동반해 드립니다.</li>
+                </ul>
+            </div>
+            <h2 class="title">서비스 요금 안내</h2>
+            <div class="child">
+                <p class="child_title">국내선</p>
+                <ul>
+                    <li>만 5세 이상~만 12세 이하
+                        <p>- 성인 정상운임 적용</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="child">
+                <p class="child_title">국제선</p>
+                <ul>
+                    <li>만 5세 이상~만 11세 이하
+                        <p>- 하랑항공에서 별도로 정한 성인운임 적용 + 구간당 150,000원</p>
+                    </li>
+                    <li>만 12세 이상~만 16세 이하
+                        <p>- 하랑항공에서 별도로 정한 성인운임 적용 + 구간당 200,000원</p>
+                    </li>
+                </ul>
+            </div>
+            <div id="numb_img">
+                <p class="numb_title">서비스안내</p>
+                <ul>
+                    <li>하랑항공 예약영업센터 : 1588-8000(02-2669-8000)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div id="footer">
+        <div id="footer_in">
+            <div id="ft_left">
+                <ul>
+                    <li><a href="sub1.html">회사소개</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">정보처리방침</a></li>
+                </ul>
+                <p>(주)하랑항공 사업자등록번호 : 616-81-50527 대표이사 : 김지수 ㅣ 주소 : 서울특별시 강서구 하늘길 260<br>
+                    통신판매업신고 : 강서 제 16-3010 ㅣ사업자등록번호 104-81-17480 <br>
+                    서버 위치 : 하랑IDT㈜ 전산센터 ㅣ 개인정보보호책임자 : 김종현 하랑항공 부사장 ( privacy1@harangair.co.kr )<br>
+                    Copyright ⓒ harangair All Rights Reserved.</p>
+            </div>
+            <div id="ft_right">
+                <p>고객서비스센터</p>
+                <h3 class="numb">1688-7662 / 02-8656-2001</h3>
+                <p class="ftr_time">평일 09:00~18:00 (연중무휴)ㅣ 고객센터 메일 : harangservice@harangair.co.kr</p>
+
+                <ul>
+                    <li><a href="#"><img src="./images/INDEX/btn_fb.png"></a></li>
+                    <li><a href="#"><img src="./images/INDEX/btn_ig.png"></a></li>
+                    <li><a href="#"><img src="./images/INDEX/btn_yb.png"></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="top">
+        <img src="./images/INDEX/btn_top.png">
+    </a>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <!--탭 제이쿼리-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            //처음들어갔을때 모습 만들기...
+            $(".tab_content").hide(); //tab_content 부분을 모두 숨김.
+            $("ul.tabs li:first").addClass("active").show(); //첫번째 탭이 active클래스를 붙이고, 보여줌.
+            $(".tab_content:first").show(); //tab_contents중 첫번째꺼를 보여줌
+
+            //On Click Event
+            $("ul.tabs li").click(function () {
+
+                $("ul.tabs li").removeClass("active"); //Remove any "active" class
+                $(this).addClass("active"); //선택한 탭에만 active클래스 붙임
+                $(".tab_content").hide(); //모든 contents들 숨김
+
+                var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
+                /*.attr( attributeName ) -> 선택한 요소의 속성의 값을 가져옵니다.
+                .find()는 어떤 요소의 하위 요소 중 특정 요소를 찾을 때 사용합니다.*/
+                $(activeTab).fadeIn(); //Fade in the active ID content(active되어있는 칸의 id 값을 가진 부분이 나타남)
+                return false;
+            });
+
+        });
+    </script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        /*var typingBool = false;
+        var typingIdx = 0;
+        var typingTxt = $(".typing-txt").text(); // 타이핑될 텍스트를 가져온다 
+        typingTxt = typingTxt.split(""); // 한글자씩 자른다. 
+        if (typingBool == false) { // 타이핑이 진행되지 않았다면 
+            typingBool = true;
+    
+            var tyInt = setInterval(typing, 100); // 타이핑 스피드 설정 
+        }
+    
+        function typing() {
+            if (typingIdx < typingTxt.length) { // 타이핑될 텍스트 길이만큼 반복 
+                $(".typing").append(typingTxt[typingIdx]); // 한글자씩 이어준다. 
+                typingIdx++;
+            } else {
+                clearInterval(tyInt); //끝나면 반복종료
+    
+            }
+        }*/
+
+        var typingBool = false;
+        var typingIdx = 0;
+        var liIndex = 0;
+        var liLength = $(".typing-txt>ul>li").length;
+
+        // 타이핑될 텍스트를 가져온다 
+        var typingTxt = $(".typing-txt>ul>li").eq(liIndex).text();
+        typingTxt = typingTxt.split(""); // 한글자씩 자른다. 
+        if (typingBool == false) { // 타이핑이 진행되지 않았다면 
+            typingBool = true;
+            var tyInt = setInterval(typing, 50); // 반복동작 
+        }
+    </script>
+
+</body>
+
+</html>

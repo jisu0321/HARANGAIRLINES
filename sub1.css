@@ -1,0 +1,388 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #000;
+    font-size: 17px;
+    line-height: 24px;
+    min-width: 1550px;
+
+}
+
+#gnb li:hover {
+    color: #00bccb;
+    transition: all 0.5s;
+}
+
+
+#top {
+    background-color: #00bccb;
+    position: fixed;
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.top_inner {
+    width: 1504px;
+    margin: 0 auto;
+}
+
+#top ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+}
+
+#language {
+    font-size: 16px;
+    width: 160px;
+    border: none;
+    background-color: #00bccb;
+    font-family: inherit;
+    color: white;
+}
+
+#top li {
+    text-align: center;
+    padding: 7px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#header {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    top: 40px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header_inner {
+    width: 1504px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#gnb {
+    display: flex;
+    list-style: none;
+}
+
+#gnb li {
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.logo {
+    position: absolute;
+    top: 16px;
+    left: 0;
+
+}
+
+#footer {
+    background-color: #00bccb;
+    color: white;
+}
+
+#footer {
+    background: #00bccb;
+    padding: 50px 0;
+    color: white;
+    font-size: 16px;
+}
+
+#footer_in {
+    width: 1504px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#footer a,
+.footer_in p {
+    color: white;
+}
+
+#footer_in {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ft_left ul {
+    display: flex;
+}
+
+#ft_left ul li {
+    margin-right: 30px;
+    list-style: none;
+}
+
+#ft_left p {
+    padding-top: 30px;
+}
+
+.numb {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.ftr_time {
+    color: #fff;
+}
+
+#ft_right ul {
+    display: flex;
+    list-style: none;
+}
+
+#ft_right ul li {
+    margin: 15px 15px 0 0;
+
+}
+
+.top {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    margin-left: 770px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+#main_banner {
+    background-image: url(./images/sub1/company.jpg);
+    background-repeat: no-repeat;
+    height: 616px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+    margin-top: 104px;
+    position: relative;
+    background-position: center;
+}
+
+#main_banner img {
+    padding: 20px 0;
+}
+
+#main_banner p {
+    padding-top: 220px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#main_banner h5 {
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 400
+}
+
+#wrapper {
+    width: 1504px;
+    margin: 0 auto;
+
+
+}
+
+.tabs {
+    display: flex;
+    margin-top: 180px;
+    padding-bottom: 100px;
+
+}
+
+.tabs li {
+    width: 33.33%;
+    text-align: center;
+    border: solid 1px #0d5eb1;
+    padding: 20px 0;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+
+
+}
+
+.tabs li:nth-child(2) {
+    border-left: none;
+    border-right: none;
+}
+
+.active {
+    background-color: #0d5eb1;
+}
+
+ul.tabs li.active a {
+    color: white;
+}
+
+#tab1 {
+    line-height: 30px;
+    padding-bottom: 180PX;
+}
+
+
+#tab3 {
+    padding-bottom: 180px;
+}
+
+#tab3 p {
+    padding-top: 40px;
+    padding-bottom: 100px;
+
+}
+
+#tab2 p {
+    padding-top: 40px;
+    padding-bottom: 100px;
+
+}
+
+.sub1_color {
+    padding-bottom: 80px;
+}
+
+#btn_sub1 {
+    width: 1504px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 116px;
+}
+
+.btn_1 {
+    background-image: url(./images/sub1/sub1_button1.png);
+    width: 300px;
+    height: 400px;
+    display: block;
+    box-sizing: border-box;
+
+}
+
+.btn_1:hover {
+    background-image: url(./images/sub1/sub1_bluebutton1.png);
+    border: 3px solid white;
+    transform: translateY(-2px);
+    transition: all 0.1s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn_2 {
+    background-image: url(./images/sub1/sub1_button2.png);
+    width: 300px;
+    height: 400px;
+    display: block;
+    box-sizing: border-box;
+
+}
+
+.btn_2:hover {
+    background-image: url(./images/sub1/sub1_bluebutton2.png);
+    border: 3px solid white;
+    transform: translateY(-2px);
+    transition: all 0.1s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn_3 {
+    background-image: url(./images/sub1/sub1_button3.png);
+    width: 300px;
+    height: 400px;
+    display: block;
+    box-sizing: border-box;
+
+}
+
+.btn_3:hover {
+    background-image: url(./images/sub1/sub1_bluebutton3.png);
+    border: 3px solid white;
+    transform: translateY(-2px);
+    transition: all 0.1s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.center {
+    text-align: center;
+}
+
+.tab3_img {
+    padding: 87px 0;
+    padding-left: 150px;
+}
+
+.airplane {
+    padding: 30px 0;
+}
+
+#tab1 h2 {
+    font-size: 19px;
+}
+
+#tab2 h2 {
+    font-size: 19px;
+}
+
+#tab3 h2 {
+    font-size: 19px;
+}
+
+.padding {
+    padding-bottom: 30px;
+}
+
+.bluefont {
+    color: #0d5eb1;
+}
+
+.maincolor {
+    color: #00bccb;
+}
+
+.subcolor {
+    color: #b2cfd0;
+}
+
+.sub1_logo {
+    padding-left: 60px;
+}
+
+.font_img {
+    padding-left: 265px;
+}
