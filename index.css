@@ -153,8 +153,14 @@ a {
 
 
 .bg1 {
-    background: url(./images/INDEX/1.main_banner.jpg) no-repeat center top;
+    background: url(./images/INDEX/main_banner.jpg) no-repeat center top;
     height: 616px;
+}
+
+.bg1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .bg2 {
@@ -162,9 +168,21 @@ a {
     height: 616px;
 }
 
+.bg2 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 .bg3 {
     background: url(./images/INDEX/1-2.main_banner.jpg) no-repeat center top;
     height: 616px;
+}
+
+.bg3 a {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 
